@@ -14,6 +14,6 @@ def test_calculate_area_square_list():
         calculate_area_square([2])
 def test_calculate_area_square_student_id():
     # Test for correct calculation (area = 21)
-    side_length = 5  # changed for failiure
+    side_length = 21**0.5 
     expected_area = 21
     assert calculate_area_square(side_length) == pytest.approx(expected_area)
